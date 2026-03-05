@@ -21,7 +21,7 @@ codes.forEach((code, idx) => {
 
     if (e.key === "Backspace") {
 
-      if (code.value === "" && idx > 0) {
+      if (idx > 0) {
         codes[idx - 1].focus();
       }
 
